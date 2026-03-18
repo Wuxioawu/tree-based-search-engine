@@ -1,11 +1,11 @@
-# 🎬 Movie Ticket Query System — AVL Tree
+#  Movie Ticket Query System — AVL Tree
 
 A Java implementation of a Movie Ticket Query System backed by self-balancing
 **AVL Trees**, developed as Assignment 2 (Trees) for a Data Structures module.
 
 ---
 
-## 📐 Data Structure
+##  Data Structure
 
 Three AVL Trees are maintained simultaneously:
 
@@ -30,7 +30,7 @@ every insertion and deletion via single/double rotations.
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 MovieTicketSystem/
@@ -54,7 +54,7 @@ MovieTicketSystem/
 
 ---
 
-## ▶️ How to Run
+## ▶ How to Run
 
 ### Requirements
 - Java 17+
@@ -73,7 +73,7 @@ mvn test
 
 ---
 
-## 🧪 Experiments
+##  Experiments
 
 The `PerformanceExperiment` class benchmarks insert, search (1 000 queries),
 and delete (10 % of N) across dataset sizes:
@@ -94,7 +94,7 @@ Tree height grows as expected: **≈ 1.44 × log₂(n)**.
 
 ---
 
-## 🎯 Features
+##  Features
 
 - **Search by ID** — O(log n)
 - **Search by genre / director** — O(n) linear scan
@@ -107,7 +107,7 @@ Tree height grows as expected: **≈ 1.44 × log₂(n)**.
 
 ---
 
-## 📚 References
+##  References
 
 1. Cormen, T. H., Leiserson, C. E., Rivest, R. L., & Stein, C. (2022).
    *Introduction to Algorithms* (4th ed.). MIT Press.
